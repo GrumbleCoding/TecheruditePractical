@@ -1,0 +1,198 @@
+.authonly, .authonly body{
+    height: -webkit-fill-available;
+}
+#auth {
+    padding: 83px 0 0;
+    height: -webkit-fill-available;
+}
+#auth .row, #auth .row > div{
+    height: -webkit-fill-available;
+}
+.auth_vector {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: cover;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    width: -webkit-fill-available;
+    width:100%;
+}
+#auth .auth_form_blog {
+    padding: 50px 0;
+    max-width: 456px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+.auth_brand, .auth_blog_title{
+    margin-bottom: 30px;
+}
+.auth_blog_title h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 6px;
+}
+.auth_blog_title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+}
+.auth_form_blog label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+}
+.auth_form_blog .form-group{
+    margin-bottom: 20px;
+}
+.auth_form_blog .input_group_include{
+    position: relative;
+}
+.auth_form_blog .form-control{
+    border: 0.8px solid #DCDCDC;
+    border-radius: 22px;
+    background: #FBFBFB;
+    display: block;
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #151515;
+    min-height: 60px;
+    height: auto;
+    line-height: normal;
+    padding: 12px 56px;
+}
+.auth_form_blog .vector_bg{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 12px;
+    z-index: 1;
+}
+.auth_form_blog .toggle-hide-show {
+    color: #8C8C8C;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 20px;
+    height: fit-content;
+}
+.field_filled .form-control, .field_active .form-control{
+    border: 1.5px solid #3A53A4;
+    box-shadow: unset;
+}
+.field_filled span svg path, .field_active span svg path{
+    stroke: #3A53A4;
+}
+.field_filled span, .field_active span{
+    background: rgb(58 83 164 / 10%);
+}
+.field_filled i, .field_active i{
+    color: #3A53A4 !important;
+}
+.forgotlink {
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+    display: block;
+    margin: 30px 0 0;
+    text-align: center;
+}
+.authbtn {
+    box-shadow: 0px 4px 9px 0px #3A53A43B;
+    border-radius: 22px;
+    padding: 16px 15px;
+    background: #3A53A4;
+    border: 2px solid #3A53A4;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+}
+.authbtn:hover {
+    color: #3A53A4;
+    background: #fff;
+}
+.newuser_link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #151515;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+}
+.newuser_link a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3A53A4;
+}
+.iti {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 0.8px solid #DCDCDC;
+    border-radius: 22px;
+    background: #FBFBFB;
+    padding: 0 15px 0 56px;
+}
+.iti input[type=tel] {
+    padding: 12px 10px !important;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+}
+.iti__flag-container {
+    position: unset;
+}
+.iti__selected-flag {
+    background: transparent !important;
+    padding: 0;
+}
+.iti__country-list {
+    max-width: 350px !important;
+    width: 100%;
+}
+.other_vector {
+    margin-bottom: 30px;
+}
+.reset_link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #151515;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+.otp_blogs {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    gap: 20px;
+}
+.otp_blogs .form-control {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+}

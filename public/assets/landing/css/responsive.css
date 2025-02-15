@@ -1,0 +1,252 @@
+/*  Desktop */
+@media all and (min-width: 1601px) and (max-width: 1920px)
+{
+
+}
+
+/* Laptop */
+@media (max-width: 1366px)
+{
+    .wd-becom-volunteer{width: 50%;}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px)
+{
+    header .navbar .menu-item{padding: 20px 15px;}
+    header .navbar .menu-item a{font-size: 14px;}
+    /* home */
+    .wd-home-dtls h1{font-size: 40px;margin-bottom: 20px;}
+   
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px)
+{
+    /* home */
+    *{line-height: 1.5 !important;}
+    .wd-banner-area{padding: 50px 0;}
+    .wd-home-img img, .wd-counter-item, .wd-empower-blog h3, .wd-evntdtls-img img, .wd-evnt-location img, .wd-sponsr-rght img, .register-modal .modal-body p, .wd-report-blog h3, .wd-about-img img{margin-bottom: 20px;}
+    .wd-home-dtls h1{font-size: 32px;margin: 0 0 5px;}
+    .wd-home-dtls p{font-size: 16px;margin-bottom: 15px;}
+    .wd-home-btn, .wd-doante-btn, .wd-done-btn{margin: 0; padding: 10px 24px; border-radius: 18px;font-size: 15px;}
+    .wd-need-blog, .wd-empower-blog, .wd-pkg-blog, .wd-progrm-blog, .wd-events-blog, .wd-registration-blog, .wd-privacy-blog, .wd-contact-blog, .wd-gnfb-blog, .wd-track-blog, .wd-land-blog, .wd-team-blog, .wd-report-blog{padding: 30px 0;}
+    .wd-done-btn{margin: 0 auto;}
+    .wd-need-blog h6, .wd-need-box h4{font-size: 18px;margin-bottom: 10px;}
+    .wd-main-title, .wd-empower-blog h3, .wd-bnr-txt h1, .wd-report-blog h3{font-size: 30px;} 
+    .wd-need-blog h2, .wd-services-blog h2, .wd-track-blog h2, .wd-team-blog h3{font-size: 30px; margin-bottom: 20px;}      
+    .wd-need-box{margin: 0 0 50px; padding: 55px 15px 15px;}
+    .wd-icon-box, .wd-counter-icon, .wd-progrm-icon{width: 70px;height: 70px;}
+    .wd-srvc-img img{height: 575px;}
+    .wd-srvc-dtls p, .wd-pkg-lft p, .wd-pkg-lft ol li, .register-modal .modal-body p, .wd-becom-volunteer p, .wd-data-top h3, .donate_box p, .breadcrumb li a, .breadcrumb li{font-size: 16px;}
+    .wd-srvc-dtls{padding: 0 30px 0 30px;}
+    .wd-counter-icon{margin: 0 auto 10px;}
+    .wd-counter-item h4{font-size: 24px; margin: 0;}
+    .wd-counter-item p, .wd-donate-lft p, .wd-need-box p, .wd-evnt-time span, .wd-policy-listing li, .wd-srvc-dtls ul li, .no-data p{font-size: 15px;}
+    .wd-counter{padding: 25px 0 5px;}
+    .wd-donate-box{height: auto; display: block; padding: 20px;}
+    .wd-doante-rght{margin: 15px auto 0;}
+    .wd-donate-lft h4, .wd-donate-blog{font-size: 28px;}
+    .wd-donate-lft p, .wd-donate-blog, .contct-data{margin: 0;}
+    .wd-donate-blog, .wd-partners-blog{padding: 0 0 30px;}
+    .wd-donate-lft{align-items: center;}
+    /* received aid */
+    .wd-banner-blog{height: auto; padding: 50px 0;}  
+    .wd-bnr-txt p, .wd-land-blog p, .wd-team-txt h4{font-size: 18px;} 
+    .wd-support-blog{margin: 0;padding: 30px 0;} 
+    .wd-support-box, .register-modal .modal-content{padding: 20px;}
+    .wd-pkg-blog{background-position: top;}
+    .wd-brdr-lft::before{display: none;}
+    /* event details */
+    .wd-event-rght h1{font-size: 20px; margin-bottom: 10px;}
+    .wd-evntdtls-img img{height: 350px;}
+    .wd-moment-grid{grid-template-columns: repeat(3, 1fr);}
+    .wd-moment-grid img {height: 145px;}
+    .wd-evnt-time p{font-size: 15px;
+    margin-bottom: 10px;
+    align-items: flex-start;}
+    .wd-evnt-location img{height: 250px;}
+    .wd-moment-box{height: auto; padding: 30px 0;}
+    .wd-brdr{margin: 15px 0;}
+    .breadcrumb{margin: 0 0 15px;}
+    .wd-event-dtls-box,.wd-privacy-box, .wd-data-top, .wd-data-dtls, .wd-data-body, .wd-data-grid{padding: 15px;}
+    /* volunteer */
+    .wd-partners-blog h3{font-size: 26px;}
+    .register-modal .modal-body h4, .wd-becom-volunteer h1{font-size: 22px;}
+    .wd-register-btn{font-size: 15px; padding: 12px 48px; margin: 15px auto 0;}
+    .wd-register-btn{width: fit-content;}
+    .wd-registration-blog .form-control, .auth_form_blog .form-control{min-height: auto; font-size: 15px;}
+    .wd-registration-blog .form-group, .wd-privacy-blog h1, .wd-contact-blog h1{margin-bottom: 15px;}
+    .wd-registration-blog label, .auth_form_blog label{font-size: 14px; margin-bottom: 5px;}
+    /* privacy policy */
+    .wd-policy-logo img{height: 45px;}
+    .wd-policy-logo{margin: 0 auto 20px;}
+    /* contact us */
+    .wd-contact-img{border-radius: 15px 15px 0 0;height: 420px;}
+    .wd-contact-form h2{font-size: 22px; margin-bottom: 0;}
+    .wd-contact-form p{font-size: 16px;margin-bottom: 15px;}
+    .wd-data-grid{grid-template-columns: repeat(2, 1fr); grid-gap: 15px;}
+    /* donation */
+    .donate_box{margin: 0 15px; padding: 20px; border-radius: 0 0 15px 15px;}
+    .donate_box h4{font-size: 24px;}
+    .donate_btn{font-size: 15px; padding: 12px 10px;}
+    .donate-thank{width: 100px; height: 100px;}
+    br{display: none;}
+    .month_one_tab{margin: 15px auto;}
+    .custom_donate_radio{gap: 20px;flex-wrap: nowrap; overflow-x: auto; align-items: center; justify-content: flex-start; padding: 0 0 25px; margin: 15px 0;}
+    .custom_donate_radio label{width: 120px; height: 65px; font-size: 26px;}
+    .dollar_vector{width: 20px; height: 20px;}
+    /* auth */
+    .auth_vector{display: none;}
+    .auth_brand, .auth_blog_title{margin-bottom: 20px;}
+    .authbtn{font-size: 15px; padding: 12px 15px;margin: 20px 0;}
+    #auth .row > div {height: auto;}
+    /* about us */
+    .wd-srvc-dtls ul li::before{width: 25px;height: 25px; margin: 0 0 0 -35px;}
+    .wd-srvc-dtls ul li{margin-bottom: 6px;}
+    .wd-srvc-dtls ul{padding: 0 0 0 35px;}
+    .wd-gnfb-box span{width: 130px; height: 130px;}
+    .wd-gnfb-blog h2{font-size: 28px;margin: 0 auto 25px;}
+    .wd-gnfb-box span{margin: 0 auto 15px;}
+    .wd-track-blog h2, .wd-team-blog h3{margin: 0 0 20px;}
+    .wd-land-blog h3{font-size: 30px;}
+    .wd-team-img img{height: 350px;}
+    .wd-team-box, .wd-services-blog h2{margin-bottom: 20px;}
+    .wd-report-box{margin-bottom: 15px;}
+   .wd-report-box img{margin-bottom: 8px;}
+   .wd-report-box h4{font-size: 18px; margin-bottom: 8px;}
+   .wd-report-box p{font-size: 16px; margin-bottom: 15px;}
+   .wd-report-blog{margin-bottom: 30px;}
+   /* donation history */
+   .account_detail_head, .form-group_box p{padding: 15px;}
+   .wd-donation-body{padding: 0 15px 15px;}
+   .wd-history-lft h3, .wd-amount{font-size: 16px}
+   .wd-history-lft p, .wd-time{font-size: 15px;}
+   .wd-invoice-btn{margin: 2px 0; padding: 2px 10px;}
+   .wd-history-box{padding: 12px 0;}
+   /* profile left menu*/
+   .account_listing{display: flex;align-items: center; flex-wrap: nowrap; overflow-x: auto; margin: 0 0 20px; padding: 0 15px;}
+   .account_listing li{border-bottom: none; padding: 10px 15px;}
+   .account_listing li a span ~ svg, .custom_swichbtn{display: none;}
+   .account_listing li a{flex-direction: column; white-space: nowrap;}
+   .account_listing li a span{flex-flow: column;display: flex; gap: 8px;}
+   .account_listing li.active, .account_listing li.active:first-child{border-radius: 8px;}
+   /* profile */
+   .editpro_btn{font-size: 15px; padding: 12px 10px;}
+   .account_details_box{padding: 10px 15px 15px;}
+   .no-data img{width: 100%;}
+   .no-data h4{font-size: 20px;}
+   .app_product_box h5{font-size: 16px;}
+   .scheduled_link, .complete_scheduled_link{font-size: 15px;}
+   .wd-land-blog p, .book_list h5{font-size: 16px;}
+   .book_list{margin-bottom: 15px;}
+   .modal-open {padding: 0 !important;}
+   .book_list > div{gap: 15px;}
+   .other_modal .modal-content{padding: 15px !important;}
+   .other_modal h6{font-size: 18px;}
+   .custom_radio_btn label{font-size: 15px; padding: 8px;}
+   
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width:767px)
+{	
+    /* home */
+    .wd-home-dtls h1{font-size: 30px;}
+    .wd-banner-area{padding: 30px 0; border-radius: 0 0 30px 30px;}
+    .wd-need-blog h2, .wd-services-blog h2, .wd-main-title, .wd-empower-blog h3, .wd-bnr-txt h1, .wd-track-blog h2, .wd-team-blog h3, .wd-report-blog h3 {font-size: 24px;}
+    .wd-srvc-img img {height: 385px; margin-bottom: 20px;}
+    .wd-srvc-dtls{padding: 0 30px 20px;}
+    .wd-donate-lft{align-items: center; flex-flow: column; text-align: center;}
+    .wd-donate-lft h4{margin-top: 15px;}
+    /* received aid */
+    .wd-banner-blog, .wd-becom-volunteer{padding: 30px 0;}
+    .wd-bnr-txt h1, .wd-land-blog h3{font-size: 28px;}
+    .wd-bnr-txt p{font-size: 16px;}
+    /* event listing */
+    .wd-event-box{margin-bottom: 15px;}
+    .wd-evntdtls-img img {height: 300px;}
+    /* volunteer */
+    .wd-partners-blog h3 {font-size: 20px; margin-bottom: 20px;}
+    .wd-becom-volunteer{width: 100%;}
+    .wd-sponsr-rght img {border-radius: 30px;}
+    /* contact us */
+    .wd-contact-img{height: 350px;}
+    .wd-contact-form{padding: 20px 15px;}
+    /* auth */
+    #auth .auth_form_blog{max-width: 100%; padding: 50px 20px 15px;height:auto;}
+    /* about us */
+    .wd-srvc-dtls ul li::before {width: 20px; height: 20px;margin: 0 0 0 -30px;}
+    /* notification */
+   .notification_blog .book_list > div, .notification_blog .book_list{display: block;}
+    #calendar {
+        border-radius: 12px;
+    }
+    
+    .fc-toolbar.fc-header-toolbar {
+        padding: 10px;
+        justify-content: space-between;
+    }
+    
+    .fc-right {
+        position: unset;
+        text-align: right;
+    }
+    
+    .fc-button-group {
+        display: block;
+    }
+    
+    .fc-toolbar h2 {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    
+    .fc-row.fc-widget-header span {
+        font-size: 15px;
+    }
+    
+    td.fc-day-top {
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    .fc-unthemed td.fc-today span {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .form-group_box p label {font-size: 16px;}
+    
+    .form-group_box ul li {
+        font-size: 14px;
+    }
+    .appointment_details .wd-event-rght .row > div:nth-child(odd){padding-right:15px;}
+    .appointment_details .wd-event-rght .row > div:nth-child(even){padding-left:15px;}
+	.wd-home-dtls{padding-bottom:0;}
+	.form-group_box input[type=checkbox]:checked + label:after, .form-group_box input[type=checkbox] + label:after{width:32px;margin-right:5px;}
+	.wd-contact-box .pr-0 {padding-right: 15px !important;}
+	.authonly, .authonly body{height:auto;}
+	.select2-container--default .select2-selection--single{min-height:auto;}
+	.select2-container--default .select2-selection--single .select2-selection__arrow{top:14px;}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px)
+{
+	/* contact us */
+    .wd-data-grid{grid-template-columns: repeat(1, 1fr);}
+    .wd-data-top{display: block;}
+    /* doante */
+    .donate_btn{max-width: 100%;}
+    .custom_donate_radio label{width: 100px; height: 50px; font-size: 20px;}
+}
+@media (max-width: 475px)
+{
+	.wd-moment-grid {grid-template-columns: repeat(2, 1fr);}
+    .wd-evnt-time p{flex-flow: column;}
+}
+@media (max-height: 600px)
+{
+    /*.auth_vector{position: unset;width: 100%;max-width: fit-content;}*/
+}
